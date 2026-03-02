@@ -4,6 +4,7 @@ public class Main
     {
         System.out.println("Welcome to Quiz app");
         QuestionService service = new QuestionService();
-        service.displayQuestions();       
+        service.playQuiz();
+        service.calculateAndPrintScore();      
     }
 }
